@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c338b16d277a841a1d816ef8c9df9e, type: 3}
   m_Name: AudioData
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 0}
+  audioMixer: {fileID: 24100000, guid: f55ecb3a53a73004ba79586e8c764585, type: 2}
   masterKeyVolume: 
   musicKeyVolume: 
   SfxKeyVolume: 
