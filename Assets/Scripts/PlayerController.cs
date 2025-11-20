@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     [Header("Salto")]
     [SerializeField] private float jumpForce;
 
+    [SerializeField] private Transform cameraTransform;
+
     private Vector2 input;
     private bool isGrounded;
     private Rigidbody rb;
@@ -28,6 +30,5 @@ public class PlayerController : MonoBehaviour
         Vector3 direction = new Vector3(input.x, 0, input.y);
         rb.MovePosition(rb.position + speed * direction * Time.deltaTime);
     }
-
 
 }
