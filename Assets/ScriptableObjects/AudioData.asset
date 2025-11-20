@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: AudioData
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: f55ecb3a53a73004ba79586e8c764585, type: 2}
-  masterKeyVolume: 
-  musicKeyVolume: 
-  SfxKeyVolume: 
+  masterKeyVolume: MasterMusic
+  musicKeyVolume: VolumeMusic
+  SfxKeyVolume: SFXVolume
   master: 1
-  music: 1
+  music: 0
   sfx: 1
